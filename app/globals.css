@@ -17,17 +17,17 @@
 
 :root.dark {
   --background: #0f1728;
-  --foreground: #dce4f3;
+  --foreground: #e8f0ff;
   --surface: #111c31;
   --surface-elevated: #17253e;
   --surface-2: #22324d;
-  --text-main: #e6edf8;
-  --text-muted: #aab7cd;
-  --brand: #d7e2f7;
+  --text-main: #f0f6ff;
+  --text-muted: #c0ccde;
+  --brand: #e8f0ff;
   --brand-contrast: #0f1728;
   --brand-accent: #f2ae79;
-  --border: #2a3d5e;
-  --border-strong: #62799c;
+  --border: #3a4d6e;
+  --border-strong: #7a8fac;
 }
 
 @theme inline {

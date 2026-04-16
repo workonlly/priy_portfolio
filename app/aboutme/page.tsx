@@ -49,7 +49,7 @@ export default function About() {
                 <Image
                   alt="Areeb Uzzaman speaking at a professional podium" 
                   className="w-full h-full object-cover" 
-                  src="https://lh3.googleusercontent.com/aida/ADBb0uiToTjl1Znvh02dGOAIvRBQc74spK7594ZmLfp1eF_RzZU0Z0Q773tQXMI-eM3zdiPB774XWJLDSmVr8bwyTVnWuqQdCBFeb8Id-wJaOjcGrZoypgEwv70gGU1hrOCdE7FnQvJT-h218WX7QNUkUeT2M9SFyBaxNJnmwU6WXB_xIE4zpZRYolPqoR5HvYpiaFARZEy6ZPhrFJiHbJPnO5xkMkyu_FBh6Hg2TvD3jn3M6CHN5IcGVXH6pTtUAwRObRN5uTOb8vKd-18" 
+                  src="/Photo1.jpg" 
                   fill
                   sizes="(max-width: 768px) 100vw, 40vw"
                 />
@@ -69,7 +69,7 @@ export default function About() {
                   <Image
                     alt="Areeb researching in a grand library" 
                     className="w-full h-full object-cover" 
-                    src="https://lh3.googleusercontent.com/aida/ADBb0ujYDmZ9sLXGSpHXiKUuSBGPkZsMPEeylaflpiFEpXJEsg6blHf57pycywCyh11A6SvMWlfC_yuIdBKzScAAlmhfJPCFGKSPA8XyLX4Mg-iUmyEy7r6LRo9Xwy-RD5L12KN25I0Aubrl-V12_8PTeUw3SFDEbl07E94ej5-O0NGFs47C8mOZI0WIIQ9nsF722lMERAOSfXU4DXP2pQh6CBrxWcRgh-vMx__auQzQZDL9j2yAOSzmSzmWwIwGfia8uioGklk9tZMXKpM" 
+                    src="/Photo2.jpg" 
                     fill
                     sizes="(max-width: 768px) 100vw, 40vw"
                   />
@@ -122,7 +122,7 @@ export default function About() {
                     <Image
                       alt="Areeb Uzzaman with a baby goat" 
                       className="w-full h-full object-cover transition-all duration-700" 
-                      src="https://lh3.googleusercontent.com/aida/ADBb0uiVEmUctN3xkJzP6rJN19nHaYrB92hf6xhVUUoeD1fQjvifvBeObRMe8FY2590J7iA7--IRV9rRql66aXo2PKMP9gx2zNykC5iD04YCCipyILvFRN-H2pUg3I2axfoKjp1tc9KjWBygAIjK73vfq0uTAi8N5kv1HtiJ9AYrWyM04bLEo6VP1kApNK71EmWSVtmtWvM1rR_mjcxAFA_QYVtt0ik1tNADfPlsVnTCNeuYyQjPqK_sXTG2dSGziNwjVBtQrR6BLrKSPQY" 
+                      src="/Photo3.jpg" 
                       fill
                       sizes="(max-width: 768px) 100vw, 34vw"
                     />

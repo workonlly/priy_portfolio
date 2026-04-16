@@ -23,8 +23,8 @@ export default function ThemeToggle() {
       return;
     }
 
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const initialTheme: Theme = prefersDark ? "dark" : "light";
+    // Default to light mode for better readability
+    const initialTheme: Theme = "light";
     setTheme(initialTheme);
     applyTheme(initialTheme);
     setReady(true);
