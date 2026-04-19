@@ -286,7 +286,7 @@ export default function Portfolio() {
             <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-16 lg:gap-[8.5rem] items-start">
               <div className="pt-4 animate-fade-in-left">
                 <h2 className="text-sm font-bold tracking-[0.2em] text-[#f0813a] uppercase mb-4 transition-all duration-500 hover:text-[#ff9e5a] hover:tracking-widest">The Architect's Ethos</h2>
-                <h3 className="text-3xl font-bold text-[var(--text-main)] leading-tight transition-colors duration-500 hover:text-[#5c2600] dark:hover:text-[#ffccad] title-hover-lift">Proactive Dedication to Social Betterment.</h3>
+                <h3 className="text-3xl font-bold text-[var(--text-main)] leading-tight transition-colors duration-500   ">Proactive Dedication to Social Betterment.</h3>
               </div>
               <div className="space-y-8 animate-fade-in-right">
                 <p className="text-lg text-[var(--foreground)] leading-relaxed hover:text-[var(--text-main)] transition-all duration-500 hover:translate-x-2">
