@@ -148,18 +148,13 @@ export default function Experience() {
                 An overview of my contributions across strategic operations, institutional research, and clinical engineering within the global health and higher education sectors.
               </p>
             </div>
-            <div className="flex justify-start lg:justify-end">
-              <button className="inline-flex items-center gap-3 bg-[#182034] text-[#ffffff] px-8 py-4 mt-40 rounded-md font-semibold hover:opacity-90 transition-all active:scale-95 shadow-[0_10px_40px_rgba(24,32,52,0.1)]">
-                <span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>download</span>
-                Download Full Resume (PDF)
-              </button>
-            </div>
+            
           </div>
         </header>
 
         {/* Timeline Section */}
         <section className="space-y-20 relative mb-32 pl-12">
-          <div className="absolute left-[11px] top-0 bottom-0 w-[1px] bg-[#c4c6cf] opacity-20"></div>
+          <div className="absolute left-[11px] top-0 bottom-0 w-[2px] bg-[#f0813a] opacity-60"></div>
           
           {experiences.map((exp, idx) => (
             <div key={idx} className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start group relative" style={{ animationDelay: `${idx * 0.1}s` }}>
@@ -168,15 +163,15 @@ export default function Experience() {
               
               {idx % 2 === 0 ? (
                 <>
-                  <div className="md:text-right md:pe-16 order-2 md:order-1 animate-slide-in-right" style={{ animationDelay: `${idx * 0.15}s` }}>
+                  <div className="order-2 md:order-1 animate-slide-in-right" style={{ animationDelay: `${idx * 0.15}s` }}>
                     <div className="inline-block px-3 py-1 bg-[#ffdbca] text-[#331200] text-sm font-bold rounded mb-4">
                       {exp.period}
                     </div>
                     <h3 className="text-2xl font-bold text-[var(--text-main)] mb-2">{exp.title}</h3>
                     <p className="text-[#f0813a] font-semibold italic mb-6">{exp.role}</p>
-                    <ul className="text-[var(--text-muted)] space-y-3 leading-relaxed max-w-lg md:ms-auto">
+                    <ul className="text-[var(--text-muted)] space-y-0 leading-relaxed max-w-lg">
                       {exp.desc.map((item, j) => (
-                        <li key={j} className="flex gap-3 md:flex-row-reverse">
+                        <li key={j} className="flex gap-3 py-3 border-b border-[var(--border)]/20 last:border-b-0">
                           <span className="material-symbols-outlined text-[var(--text-main)] text-sm mt-1 flex-shrink-0">check_circle</span>
                           <span>{item}</span>
                         </li>
@@ -209,16 +204,16 @@ export default function Experience() {
                 </>
               ) : (
                 <>
-                  <div className="md:ps-16 md:border-s md:border-[var(--border)]/30 animate-slide-in-left" style={{ animationDelay: `${idx * 0.15}s` }}>
+                  <div className="animate-slide-in-left" style={{ animationDelay: `${idx * 0.15}s` }}>
                     <div className="inline-block px-3 py-1 bg-[var(--surface-2)] text-[#57657b] text-sm font-bold rounded mb-4">
                       <span className="text-[var(--text-muted)]">{exp.period}</span>
                     </div>
                     <h3 className="text-2xl font-bold text-[var(--text-main)] mb-2">{exp.title}</h3>
                     <p className="text-[#f0813a] font-semibold italic mb-6">{exp.role}</p>
-                    <ul className="text-[var(--text-muted)] space-y-3 leading-relaxed max-w-lg">
+                    <ul className="text-[var(--text-muted)] space-y-0 leading-relaxed max-w-lg">
                       {exp.desc.map((item, j) => (
-                        <li key={j} className="flex gap-3">
-                          <span className="material-symbols-outlined text-[var(--text-main)] text-sm mt-1 flex-shrink-0">verified</span>
+                        <li key={j} className="flex gap-3 py-3 border-b border-[var(--border)]/20 last:border-b-0">
+                          <span className="material-symbols-outlined text-[var(--text-main)] text-sm mt-1 flex-shrink-0">check_circle</span>
                           <span>{item}</span>
                         </li>
                       ))}

@@ -83,7 +83,7 @@ export default function ArchiveLogin() {
           
           <div className="mt-12 flex flex-col md:flex-row justify-center items-center gap-6 px-4">
             <div className="flex items-center gap-2">
-              <div className="w-2 h-2 rounded-full bg-[#ffb68e] animate-pulse"></div>
+              <div className="w-2 h-2 rounded-full bg-[#00FF00] animate-pulse"></div>
               <span className="text-[0.6875rem] font-['Inter'] uppercase tracking-widest text-[var(--text-muted)]">Server Status: Online</span>
             </div>
           </div>

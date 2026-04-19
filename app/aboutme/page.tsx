@@ -93,35 +93,38 @@ export default function About() {
 
         {/* Section 2: The 500-Year Archive Project */}
         <section className="bg-[var(--surface)] py-32 animate-fade-in-up stagger-2">
-          <div className="max-w-7xl mx-auto px-8">
-            <div className="grid md:grid-cols-12 gap-12 items-end">
-              <div className="md:col-span-5 order-2 md:order-1 animate-fade-in-left stagger-2">
+          <div className="max-w-5xl mx-auto px-8">
+            <div className="flex flex-col gap-16 items-center">
+              {/* Text Content */}
+              <div className="w-full text-center space-y-8 animate-fade-in-up stagger-2 max-w-3xl">
+                <h2 className="text-[var(--text-main)] text-4xl md:text-[2.75rem] font-bold tracking-tight">Architecting the Past.</h2>
+                <p className="text-[var(--text-muted)] text-lg leading-[1.7]">
+                  What started as a personal inquiry grew into the Independent Archival Research Project. Over three years, I architected a verified lineage database of over 3,100 individuals, navigating the complexities of 500 years of historical data.
+                </p>
+                
+                {/* Stats Grid */}
+                <div className="grid grid-cols-2 gap-8 pt-6 max-w-sm mx-auto">
+                  <div className="space-y-2 p-4 rounded-lg bg-[var(--background)]/50 backdrop-blur-sm border border-[var(--border)]">
+                    <div className="text-3xl font-bold text-[#f0813a] tracking-tighter">3,100+</div>
+                    <div className="text-[0.6875rem] uppercase tracking-widest text-[var(--text-muted)] font-semibold">Verified Records</div>
+                  </div>
+                  <div className="space-y-2 p-4 rounded-lg bg-[var(--background)]/50 backdrop-blur-sm border border-[var(--border)]">
+                    <div className="text-3xl font-bold text-[#f0813a] tracking-tighter">500 yrs</div>
+                    <div className="text-[0.6875rem] uppercase tracking-widest text-[var(--text-muted)] font-semibold">Temporal Scope</div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Centered Image */}
+              <div className="w-full max-w-md animate-fade-in-up stagger-3">
                 <div className="aspect-[3/4] bg-[#182034] rounded-xl overflow-hidden shadow-xl border-t-4 border-[#f0813a] relative hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
                   <Image
                     alt="Areeb researching in a grand library" 
                     className="w-full h-full object-cover" 
                     src="/Photo2.jpg" 
                     fill
-                    sizes="(max-width: 768px) 100vw, 40vw"
+                    sizes="(max-width: 768px) 100vw, 28vw"
                   />
-                </div>
-              </div>
-              <div className="md:col-span-7 order-1 md:order-2 pb-12 animate-fade-in-right stagger-2">
-                <div className="space-y-8 ps-0 md:ps-16">
-                  <h2 className="text-[var(--text-main)] text-4xl md:text-[2.75rem] font-bold tracking-tight">Architecting the Past.</h2>
-                  <p className="text-[var(--text-muted)] text-lg leading-[1.6]">
-                    What started as a personal inquiry grew into the Independent Archival Research Project. Over three years, I architected a verified lineage database of over 3,100 individuals, navigating the complexities of 500 years of historical data.
-                  </p>
-                  <div className="grid grid-cols-2 gap-8 pt-6">
-                    <div className="space-y-2">
-                      <div className="text-3xl font-bold text-[#f0813a] tracking-tighter">3,100+</div>
-                      <div className="text-[0.6875rem] uppercase tracking-widest text-[var(--text-muted)] font-semibold">Verified Records</div>
-                    </div>
-                    <div className="space-y-2">
-                      <div className="text-3xl font-bold text-[#f0813a] tracking-tighter">500 yrs</div>
-                      <div className="text-[0.6875rem] uppercase tracking-widest text-[var(--text-muted)] font-semibold">Temporal Scope</div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>

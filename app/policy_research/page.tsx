@@ -124,14 +124,14 @@ export default function Projects() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
               {/* Card 1 */}
               <div className="group flex flex-col bg-[var(--surface-elevated)] overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-[#182034]/5 animate-fade-in-left stagger-2">
-                <div className="h-64 overflow-hidden relative">
+                <div className="h-96 overflow-hidden relative">
                   <Image alt="Urban Housing Density" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmDJBVBnaLOrdhpq8TTCsjST6uu3RFwBWy9Z7UTxpD9W8FsGA0_p6H10kX4k86vFZ-77VUnyhX_NxHyNGmnggAV9KH4FPbvpVajk3XWztbVwxbB_cXzNWroChsMbB9HjcNth5tNYhQBOUXbmiCH-_3FGxYFnW7PYKbW0xxoyPLwxL2G1DJyti2oHZ5zY0EGPHgxNYE1WWILg_QaJkkFVlQ-VxOzYA_TWA75u65WRZJ4mSLf8zb-q5kNCIqM0Ls0NqAvHG1bdWihDtl" fill sizes="(max-width: 1024px) 100vw, 50vw" />
-                  <div className="absolute top-4 left-4 flex gap-2">
+                </div>
+                <div className="p-8 flex flex-col h-full border-t-4 border-[#3b1600]">
+                  <div className="flex gap-2 mb-4">
                     <span className="px-2 py-1 bg-[#182034] text-[#ffffff] text-[0.6rem] font-bold tracking-widest uppercase rounded-sm">Housing Policy</span>
                     <span className="px-2 py-1 bg-[var(--surface-2)] text-[var(--text-main)] text-[0.6rem] font-bold tracking-widest uppercase rounded-sm">Algorithmic Governance</span>
                   </div>
-                </div>
-                <div className="p-8 flex flex-col h-full border-t-4 border-[#3b1600]">
                   <h3 className="text-2xl font-extrabold tracking-tight text-[var(--text-main)] mb-4 leading-tight">Algorithmic Rent-Setting & Housing Equity</h3>
                   <p className="text-[var(--text-muted)] leading-relaxed mb-8 flex-grow">
                     A comprehensive policy brief evaluating the socioeconomic impacts of RealPage's YieldStar software on high-density urban rental markets, proposing frameworks for algorithmic transparency and anti-collusion measures.
@@ -144,14 +144,14 @@ export default function Projects() {
 
               {/* Card 2 */}
               <div className="group flex flex-col bg-[var(--surface-elevated)] overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-[#182034]/5 animate-fade-in-right stagger-3\">
-                <div className="h-64 overflow-hidden relative">
+                <div className="h-96 overflow-hidden relative">
                   <Image alt="Community Safety Meeting" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhBR3AAPqgzFKCy0tHDMRg_kbpIlfUj_HoUuiRsP1lSJZluxeRwsVZG54rlW8n39K7ybE3I-dctHTsbH1TatKUbbz7sbHnQQUZ8RK48AtOWCF2CbVzP0c5ZL3iggVHhmNyu0_QNc63yth5J04eX8UHotkVd0pe_Xzf6o8GCB4ETZGngFrCWDgisx9kShLZD8VZCRFzz6iFOjPmlcXp2qBjFVwTXn2cezccTLRWL9QYc-pUvb43pyF01gD2zfxyw99yg0w76MKWOqZp" fill sizes="(max-width: 1024px) 100vw, 50vw" />
-                  <div className="absolute top-4 left-4 flex gap-2">
+                </div>
+                <div className="p-8 flex flex-col h-full border-t-4 border-[#3b1600]">
+                  <div className="flex gap-2 mb-4">
                     <span className="px-2 py-1 bg-[#182034] text-[#ffffff] text-[0.6rem] font-bold tracking-widest uppercase rounded-sm">Public Safety</span>
                     <span className="px-2 py-1 bg-[var(--surface-2)] text-[var(--text-main)] text-[0.6rem] font-bold tracking-widest uppercase rounded-sm">Program Evaluation</span>
                   </div>
-                </div>
-                <div className="p-8 flex flex-col h-full border-t-4 border-[#3b1600]">
                   <h3 className="text-2xl font-extrabold tracking-tight text-[var(--text-main)] mb-4 leading-tight">Evaluating Community-Based Safety Ambassadors</h3>
                   <p className="text-[var(--text-muted)] leading-relaxed mb-8 flex-grow">
                     A collaborative evaluation of Rhode Island's Community-Based Safety Ambassador Program, analyzing operational efficacy and local community integration to provide actionable policy recommendations for scalable safety models.

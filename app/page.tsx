@@ -216,7 +216,7 @@ export default function Portfolio() {
           <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center relative z-10">
             <div className="lg:col-span-7">
               
-              <h1 className="animate-fade-in-up stagger-1 text-4xl md:text-5xl lg:text-[3.4rem] font-extrabold leading-[1.08] tracking-tight text-[var(--text-main)] mb-6 title-hover-lift">
+              <h1 className="animate-fade-in-up stagger-1 text-4xl md:text-5xl lg:text-[3.4rem] font-extrabold leading-[1.08] tracking-tight text-[var(--text-main)] mb-6">
                 Data-driven policy systems for measurable humanitarian outcomes.
               </h1>
 
@@ -227,8 +227,8 @@ export default function Portfolio() {
               <div className="animate-fade-in-up stagger-3 grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-2xl mb-10">
                 <div className="rounded-lg border border-[var(--border)] bg-[var(--surface)]/80 px-4 py-3 hover-glow-card shimmer-on-hover">
                   <p className="text-xs tracking-[0.12em] uppercase text-[var(--text-muted)] font-semibold mb-1">Education</p>
-                  <p className="text-sm text-[var(--text-main)] font-semibold">B.S. International Business, University of Maryland</p>
-                  <p className="text-sm text-[var(--text-main)] font-semibold">Master of Public Affairs, Brown University</p>
+                  <p className="text-sm rounded-sm bg-white m-1 p-1 text-[var(--text-main)] font-semibold">Master of Public Affairs, Brown University</p>
+                  <p className="text-sm rounded-sm bg-white m-1 p-1 text-[var(--text-main)] font-semibold">B.S. International Business, University of Maryland</p>
                 </div>
                 <div className="rounded-lg border border-[var(--border)] bg-[var(--surface)]/80 px-4 py-3 hover-glow-card shimmer-on-hover">
                   <p className="text-xs tracking-[0.12em] uppercase text-[var(--text-muted)] font-semibold mb-2">Professional Credentials</p>
@@ -270,7 +270,7 @@ export default function Portfolio() {
                 </div>
               </div>
 
-              <div className="hidden md:block absolute -bottom-6 -left-8 rounded-xl border border-[var(--border)] bg-[var(--background)] px-4 py-3 shadow-lg hover-glow-card">
+              <div className="hidden md:block rounded-xl border border-[var(--border)] bg-[var(--background)] px-4 py-3 shadow-lg hover-glow-card mt-4">
                 <p className="text-xs tracking-[0.12em] uppercase text-[var(--text-muted)] mb-1">Core Domains</p>
                 <p className="text-sm text-[var(--text-main)] font-semibold">Policy Research | Process Design | Humanitarian Operations</p>
               </div>

@@ -66,7 +66,6 @@ export default function Insights() {
           display: inline-block;
         }
         .article-card:hover .article-title {
-          color: #f0813a;
           transform: translateX(3px);
         }
 
@@ -75,46 +74,17 @@ export default function Insights() {
           position: relative;
           overflow: hidden;
         }
-        .archive-link::after {
-          content: '';
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          width: 0;
-          height: 2px;
-          background: #f0813a;
-          transition: width 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-        }
         .archive-link:hover {
           transform: translateY(-1px);
-        }
-        .archive-link:hover::after {
-          width: 100%;
-        }
-        .archive-link:hover h5 {
-          color: #ffdbca;
         }
 
         .read-link {
           transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
           position: relative;
         }
-        .read-link::after {
-          content: '';
-          position: absolute;
-          bottom: -2px;
-          left: 0;
-          width: 0;
-          height: 1.5px;
-          background: #f0813a;
-          transition: width 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-        }
         .read-link:hover {
           color: #f0813a;
           transform: translateX(2px);
-        }
-        .read-link:hover::after {
-          width: 100%;
         }
 
         .icon-animate {
